@@ -3,7 +3,8 @@ import { Navbar, TodoList } from './components'
 
 function App() {
   return (
-    <div><Navbar expanded={false} />
+    <div>
+      <Navbar expanded={false} />
       <TodoList/>
     </div>
   );
